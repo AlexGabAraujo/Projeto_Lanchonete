@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexg\\OneDrive\\Área de Trabalho\\Projetos e Atividades Programação\\C#\\Entra21\\Programação Orientada a Objetos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj": {}
+    "C:\\Users\\alexg\\Source\\Repos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexg\\OneDrive\\Área de Trabalho\\Projetos e Atividades Programação\\C#\\Entra21\\Programação Orientada a Objetos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj": {
+    "C:\\Users\\alexg\\Source\\Repos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexg\\OneDrive\\Área de Trabalho\\Projetos e Atividades Programação\\C#\\Entra21\\Programação Orientada a Objetos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj",
+        "projectUniqueName": "C:\\Users\\alexg\\Source\\Repos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj",
         "projectName": "Projeto_Lanchonete",
-        "projectPath": "C:\\Users\\alexg\\OneDrive\\Área de Trabalho\\Projetos e Atividades Programação\\C#\\Entra21\\Programação Orientada a Objetos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj",
+        "projectPath": "C:\\Users\\alexg\\Source\\Repos\\Projeto_Lanchonete\\Projeto_Lanchonete\\Projeto_Lanchonete.csproj",
         "packagesPath": "C:\\Users\\alexg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexg\\OneDrive\\Área de Trabalho\\Projetos e Atividades Programação\\C#\\Entra21\\Programação Orientada a Objetos\\Projeto_Lanchonete\\Projeto_Lanchonete\\obj\\",
+        "outputPath": "C:\\Users\\alexg\\Source\\Repos\\Projeto_Lanchonete\\Projeto_Lanchonete\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

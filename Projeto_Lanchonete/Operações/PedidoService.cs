@@ -42,8 +42,7 @@ public class PedidoService
         var cliente = usuarios.FirstOrDefault(u => u.Cpf.Equals(cpf));
         if (cliente == null)
         {
-            Console.WriteLine("Usuário não encontrado.");
-            return;
+            throw new Exception("Usuário não encontrado.");
         }
 
         foreach (var produto in listaPedido)
@@ -53,8 +52,7 @@ public class PedidoService
 
         if (total > cliente.ContaBancaria)
         {
-            Console.WriteLine("O usuário não possui dinheiro suficiente na conta para realizar esta compra.");
-            return;
+            throw new Exception("O usuário não possui dinheiro suficiente na conta para realizar esta compra.");
         }
         else
         {
