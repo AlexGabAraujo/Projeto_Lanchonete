@@ -28,3 +28,18 @@ C:\Users\alexg\Source\Repos\Projeto_Lanchonete\Projeto_Lanchonete\obj\Debug\net7
 C:\Users\alexg\Source\Repos\Projeto_Lanchonete\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.pdb
 C:\Users\alexg\Source\Repos\Projeto_Lanchonete\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.genruntimeconfig.cache
 C:\Users\alexg\Source\Repos\Projeto_Lanchonete\Projeto_Lanchonete\obj\Debug\net7.0\ref\Projeto_Lanchonete.dll
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\bin\Debug\net7.0\Projeto_Lanchonete.exe
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\bin\Debug\net7.0\Projeto_Lanchonete.deps.json
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\bin\Debug\net7.0\Projeto_Lanchonete.runtimeconfig.json
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\bin\Debug\net7.0\Projeto_Lanchonete.dll
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\bin\Debug\net7.0\Projeto_Lanchonete.pdb
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.AssemblyInfoInputs.cache
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.AssemblyInfo.cs
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.csproj.CoreCompileInputs.cache
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.sourcelink.json
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.dll
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\refint\Projeto_Lanchonete.dll
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.pdb
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\Projeto_Lanchonete.genruntimeconfig.cache
+C:\Users\alexg\OneDrive\Área de Trabalho\Projetos e Atividades Programação\C#\Entra21\Projeto_Lanchonete\obj\Debug\net7.0\ref\Projeto_Lanchonete.dll

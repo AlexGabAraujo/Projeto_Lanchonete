@@ -68,6 +68,8 @@ public class UsuarioService
                 {
                     if(numeroPedido == pedido.NumeroPedido)
                     {
+                        double total = 0;
+
                         Console.WriteLine($"Número do pedido: {pedido.NumeroPedido}");
                         Console.WriteLine($"Itens: ");
                         for (int j = 0; j < pedido.Produtos.Count; j++)
@@ -75,6 +77,11 @@ public class UsuarioService
                             Console.WriteLine($"Item {j + 1} - {pedido.Produtos[j].NomeProduto}");
                         }
                         Console.WriteLine();
+                        for (int i = 0; i < pedido.Produtos.Count; i++)
+                        {
+                            total += pedido.Produtos[i].Preco;
+                        }
+                        Console.WriteLine($"Valor Total do Pedido: {total}\n");
                     }
                 }
             }

@@ -11,12 +11,13 @@ namespace Teste
         public int NumeroPedido;
         public List<Produto> Produtos = new List<Produto>();
         public string cliente;
+        public double TotalPedido;
 
         public Pedido(int NumeroPedido, List<Produto> Produtos, string cliente)
         {
             this.NumeroPedido = NumeroPedido;
             this.Produtos = Produtos;
             this.cliente = cliente;
-        }
+    }
     }
 }
