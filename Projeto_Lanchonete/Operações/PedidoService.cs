@@ -66,6 +66,11 @@ public class PedidoService
         pedidos.Add(pedido);
     }
 
+    public void TotalPedido(int numeroPedido)
+    {
+        var pedido = pedidos.FirstOrDefault(p => p.NumeroPedido.Equals(numeroPedido));
+    }
+
     public void ListarPedidos()
     {
         double total = 0;
