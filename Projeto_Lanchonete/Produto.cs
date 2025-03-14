@@ -12,7 +12,7 @@ namespace Teste
         public string NomeProduto;
         public double Preco;
 
-        public Produto(int Id,string NomeProduto, double Preco)
+        public Produto(int Id, string NomeProduto, double Preco)
         {
             this.Id = Id;
             this.NomeProduto = NomeProduto;

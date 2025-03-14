@@ -11,7 +11,7 @@ public class UsuarioService
 
     public void AdicionarUsuario(string nome, double conta, string cpf)
     {
-        foreach(var pessoa in usuarios)
+        foreach (var pessoa in usuarios)
         {
             if (nome == pessoa.NomeUsuario)
             {
@@ -66,7 +66,7 @@ public class UsuarioService
             {
                 foreach (Pedido pedido in pedidosList)
                 {
-                    if(numeroPedido == pedido.NumeroPedido)
+                    if (numeroPedido == pedido.NumeroPedido)
                     {
                         double total = 0;
 

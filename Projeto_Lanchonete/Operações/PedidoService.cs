@@ -60,20 +60,18 @@ public class PedidoService
             cliente.ContaBancaria -= total;
             cliente.Pedidos.Add(numeroPedido);
         }
-        
+
 
         var pedido = new Pedido(numeroPedido, listaPedido, cliente.NomeUsuario);
-        
-        pedidos.Add(pedido);
 
-        //double valorTotal = TotalPedido(numeroPedido);
+        pedidos.Add(pedido);
     }
 
     public double TotalPedido(int numeroPedido)
     {
         var pedido = pedidos.FirstOrDefault(p => p.NumeroPedido.Equals(numeroPedido));
         double total = 0;
-        foreach(var produto in pedido.Produtos)
+        foreach (var produto in pedido.Produtos)
         {
             total += produto.Preco;
         }
@@ -97,10 +95,10 @@ public class PedidoService
             Console.WriteLine($"Itens: ");
             for (int i = 0; i < pedido.Produtos.Count; i++)
             {
-                Console.WriteLine($"Item {i+1} - {pedido.Produtos[i].NomeProduto}");
+                Console.WriteLine($"Item {i + 1} - {pedido.Produtos[i].NomeProduto}");
             }
             Console.WriteLine($"Nome do Comprador: {pedido.cliente}");
-            for(int i = 0; i < pedido.Produtos.Count; i++)
+            for (int i = 0; i < pedido.Produtos.Count; i++)
             {
                 total += pedido.Produtos[i].Preco;
             }

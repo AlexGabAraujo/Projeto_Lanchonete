@@ -18,6 +18,6 @@ namespace Teste
             this.NumeroPedido = NumeroPedido;
             this.Produtos = Produtos;
             this.cliente = cliente;
-    }
+        }
     }
 }

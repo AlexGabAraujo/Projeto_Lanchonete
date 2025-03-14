@@ -65,8 +65,16 @@ namespace Teste
                             usuarioService.AdicionarUsuario(nomeUsuario, contaBancaria, cpf);
                             break;
                         case 3:
-                            produtoService.ListarProdutos();
-                            pedidoService.CriarPedido(numeroPedido);
+                            try
+                            {
+                                produtoService.ListarProdutos();
+                                pedidoService.CriarPedido(numeroPedido);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine(ex.Message);
+                                break;
+                            }
                             numeroPedido++;
                             break;
                         case 4:
