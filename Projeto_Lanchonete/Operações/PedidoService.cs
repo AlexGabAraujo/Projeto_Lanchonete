@@ -15,6 +15,22 @@ public class PedidoService
         this.usuarios = usuarios;
     }
 
+    public void ListarProdutos()
+    {
+        if (produtos.Count == 0)
+        {
+            Console.WriteLine("Não há nenhum produto cadastrado no sistema.");
+            return;
+        }
+        Console.WriteLine("----------------Cardápio----------------\n");
+        foreach (var produto in produtos)
+        {
+            Console.WriteLine($"ID: {produto.Id}");
+            Console.WriteLine($"Nome do Produto: {produto.NomeProduto}");
+            Console.WriteLine($"Preço: {produto.Preco}\n");
+        }
+    }
+
     public void CriarPedido(int numeroPedido)
     {
         int opcao, i = 1;
@@ -34,6 +50,8 @@ public class PedidoService
             }
             Console.WriteLine("Quer adicionar outro item?(1- sim, 0- não)");
             opcao = int.Parse(Console.ReadLine());
+            Console.Clear();
+            ListarProdutos();
         } while (opcao != 0);
 
         Console.WriteLine("Digite o CPF do comprador.");
@@ -65,17 +83,6 @@ public class PedidoService
         var pedido = new Pedido(numeroPedido, listaPedido, cliente.NomeUsuario);
 
         pedidos.Add(pedido);
-    }
-
-    public double TotalPedido(int numeroPedido)
-    {
-        var pedido = pedidos.FirstOrDefault(p => p.NumeroPedido.Equals(numeroPedido));
-        double total = 0;
-        foreach (var produto in pedido.Produtos)
-        {
-            total += produto.Preco;
-        }
-        return total;
     }
 
     public void ListarPedidos()
